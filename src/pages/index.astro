@@ -1,12 +1,23 @@
 ---
-import AboutUsSection from "@/components/sections/about-us-section";
-import DemoSection from "@/components/sections/demo-section";
-import FAQSection from "@/components/sections/faq-section";
+import AboutUsSection from "@/components/sections/about-us-section.tsx";
+import DemoSection from "@/components/sections/demo-section.tsx";
+import DownloadSection from "@/components/sections/download-section.tsx";
+import FAQSection from "@/components/sections/faq-section.tsx";
+import FeaturesSection from "@/components/sections/features-section.tsx";
+import HeroSection from "@/components/sections/hero-section.tsx";
+import PlansSection from "@/components/sections/plans-section.tsx";
+import TestimonialsSection from "@/components/sections/testimonials-section.tsx";
 import LandingLayout from "@/layouts/LandingLayout.astro";
+
 ---
 
 <LandingLayout>
-    <AboutUsSection />
-    <FAQSection />
-    <DemoSection />
+  <HeroSection client:load />
+  <FeaturesSection client:load />
+   <DemoSection client:load />
+   <DownloadSection client:load />
+    <PlansSection client:load />
+  <TestimonialsSection client:load />
+  <FAQSection client:load />
+    <AboutUsSection client:load /> 
 </LandingLayout>
