@@ -74,7 +74,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-tr from-[#2E7D32]/20 to-transparent z-10"></div>
 
               <img
-                src="/src/assets/hero2.avif"
+                src="/assets/hero2.avif"
                 alt="Agricultor usando Ayni en su cultivo de café"
                 className="object-cover w-full h-full transform hover:scale-105 transition-transform duration-700"
               />

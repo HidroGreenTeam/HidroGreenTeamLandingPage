@@ -142,7 +142,7 @@ export default function AyniDemoSection() {
           >
             <div className="relative shadow-xl rounded-3xl overflow-hidden max-w-[300px] w-full border-8 border-[#3B2C22]">
               <img
-                src="/src/assets/screen1.png"
+                src="/assets/screen1.png"
                 alt="Aplicación Ayni"
                 className="w-full object-cover"
               />
